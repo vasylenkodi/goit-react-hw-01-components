@@ -1,0 +1,12 @@
+.transactionHistory {
+    width: 75%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: cadetblue;
+    padding: 20px;
+    width: 33%;
+}

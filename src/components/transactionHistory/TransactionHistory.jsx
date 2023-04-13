@@ -1,8 +1,10 @@
 import transactions from '../../transactions.json';
+import css from './TransactionHistory.module.css';
 import { TransactionHistoryRow } from './TransactionHistoryRow';
 
 export const TransactionHistory = () => {
-  <table class="transaction-history">
+return (
+  <table class={css.transactionHistory}>
     <thead>
       <tr>
         <th>Type</th>
@@ -23,5 +25,6 @@ export const TransactionHistory = () => {
         );
       })}
     </tbody>
-  </table>;
+  </table>
+);
 };
