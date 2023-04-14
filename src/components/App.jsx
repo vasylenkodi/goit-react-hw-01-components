@@ -17,7 +17,7 @@ export const App = () => {
       likes={user.stats.likes}
       key="profile"
     />,
-    <Statistics key="Statistics" />,
+    <Statistics key="Statistics" title="Upload stats" />,
     <FriendList key="FriendList" />,
     <TransactionHistory key="TransactionHistory" />,
   ];
@@ -31,4 +31,8 @@ Profile.propTypes = {
   followers: PropTypes.number,
   views: PropTypes.number,
   likes: PropTypes.number,
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string,
 };

@@ -3,10 +3,10 @@ import data from '../../data.json';
 import css from './Statistics.module.css';
 import { Stat } from './stat/Stat';
 
-export const Statistics = () => {
+export const Statistics = ({title}) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>Upload stats</h2>
+      <h2 className={css.title}>{title}</h2>
 
       <ul className={css.statList}>
         {data.map(dataItem => {

@@ -4,7 +4,7 @@ import { TransactionHistoryRow } from './TransactionHistoryRow';
 
 export const TransactionHistory = () => {
 return (
-  <table class={css.transactionHistory}>
+  <table className={css.transactionHistory}>
     <thead>
       <tr>
         <th>Type</th>
